@@ -3,11 +3,18 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - inventoryforemployee',
-    title: 'inventoryforemployee',
+     titleTemplate: '%s - Seniorproject',
+    title: 'inventory autoparts',
+    
     htmlAttrs: {
       lang: 'en'
     },
+    script: [
+        {
+            type: 'module',
+            src: 'https://sandbox.web.squarecdn.com/v1/square.js'
+        }
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -44,10 +51,13 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      light: true,
       themes: {
-        dark: {
-          primary: colors.blue.darken2,
+        light: {
+          primary: {
+                        base: "#099b63",
+                        darken1: "#04c279"
+                    },
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
