@@ -110,11 +110,11 @@ export default {
           title: "เบิกอะไหล่",
           to: "/buyparts",
         },
-        // {
-        //   icon: "mdi-wallet-bifold-outline",
-        //   title: "สั่งซื้ออะไหล่",
-        //   to: "/buyautoparts",
-        // },
+        {
+          icon: "mdi-wallet-bifold-outline",
+          title: "สั่งซื้ออะไหล่",
+          to: "/buyautoparts",
+        },
         {
           icon: "mdi-content-paste",
           title: "สรุปรายงาน",
